@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oppgave 4</title>
+</head>
+<body>
+    <h1>
+        Oppgave 4
+    </h1>
+    <p>
+        Utvid programmet til å også inneholde valg av Favoritt-drikke
+        med to alternativer.
+    <br><br>
+        Hei jeg heter + navn + og er + alder + år gammel
+        <br><br>
+        Jeg er glad i å drikke + drikke 
+    </p>
+
+    <form id="form">
+
+        <label for="navn">Ditt navn: </label>
+        <input type="text" name="navn" id="navn">
+        <br>
+        <label for="alder">Din alder: </label>
+        <input type="number" name="alder" id="alder">
+        <br>
+        <h5>Favoritt-drikke:</h5>
+        <label for="vann">Vann</label>
+        <input type="radio" name="drikke" value="vann" id="vann">
+        <label for="saft">Saft</label>
+        <input type="radio" name="drikke" value="saft" id="saft">
+        <br><br>
+        
+        <input type="submit" value="Si hei">
+
+    </form>
+    <textarea id="result"></textarea>
+    <script src="script.js"></script>
+</body>
+</html>

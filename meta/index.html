@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oppgave 1</title>
+</head>
+<body>
+    <h1>
+        Oppgave 1
+    </h1>
+
+    <form id="form">
+        <!--
+            https://www.w3schools.com/html/html_form_input_types.asp
+            https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel
+        -->
+        <label for="navn">Ditt navn: </label>
+        <input type="text" name="navn">
+
+        <input type="password" name="password">
+
+        <input type="reset"name="reset">
+        
+        <input type="radio" name="favlang" value="python" id="python">
+        <label for="python">Python</label>
+        
+        <input type="radio" name="favlang" value="java" id="java">
+        <label for="java">Java</label>
+
+        <input type="checkbox" name="checkbox" value="check1">
+        <input type="checkbox" name="checkbox" value="check2">
+        
+
+
+        <input type="range"name="range">
+
+        <select name="select">
+            <option value="rod">Rød</option>
+            <option value="bla">Blå</option>
+            <optgroup label="sdofj">
+                <option value="gronn">
+                    Grønn
+                </option>
+            </optgroup>
+        </select>
+
+        <input type="color" name="color">
+
+        <input type="date" name="date">
+        <input type="datetime-local" name="datetime-local">
+
+        <input type="email" name="email">
+        
+        <input type="file" name="file">
+
+        <input type="month" name="month">
+
+        <input type="number" name="number">
+
+        <input type="search" name="search">
+
+        <input type="tel" name="tel" pattern="[a-å]{0,30}">
+
+        <input type="time" name="time">
+
+        <input type="url" name="url">
+
+        <input type="week" name="week">
+
+
+        
+        <input type="submit" value="Submit">
+        <button type="submit">Submit-knapp</button>
+        
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
